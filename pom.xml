@@ -22,14 +22,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>FundTransfer_Repository</id>
       <name>FundTransfer Applications Repository Internal</name>
-      <url>file://C:/Users/Win7_32b/Desktop/git-repos</url>
+      <url>file://C:/Users/Win7_32b/Desktop/resultados-ejecuciones-jenkins</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>false</uniqueVersion>
       <id>FundTransfer_Repository</id>
       <name>FundTransfer Applications Repository Internal</name>
-      <url>file://C:/Users/Win7_32b/Desktop/git-repos</url>
+      <url>file://C:/Users/Win7_32b/Desktop/resultados-ejecuciones-jenkins</url>
       <layout>default</layout>
     </snapshotRepository>
    </distributionManagement> 
