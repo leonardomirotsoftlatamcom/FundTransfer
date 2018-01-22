@@ -1,7 +1,8 @@
 package fundtransfer.test;
 
 import org.openqa.selenium.WebDriver; 
-import org.openqa.selenium.chrome.ChromeDriver; 
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.WebElement; 
 import org.openqa.selenium.By;
 
@@ -10,6 +11,8 @@ import cucumber.annotation.en.*;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.Arrays;
+
 
 public class FundTransferStepDefs {
 	protected WebDriver driver;
@@ -17,6 +20,8 @@ public class FundTransferStepDefs {
     @Before    
     public void setUp() {
     	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Win7_32b\\Desktop\\chromedriver.exe");
+    	DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+    	capabilities.setCapability("webdriver.chrome.args", Arrays.asList("--whitelisted-ips=127.0.0.1"));
     	driver = new ChromeDriver();    
     }
     
