@@ -19,7 +19,7 @@ public class FundTransferStepDefs {
 
     @Before    
     public void setUp() {
-    	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Win7_32b\\Desktop\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "C:\\jenkins\\chromedriver.exe");
     	//DesiredCapabilities capabilities = DesiredCapabilities.chrome();
     	//capabilities.setCapability("webdriver.chrome.args", Arrays.asList("--whitelisted-ips=127.0.0.1"));
     	driver = new ChromeDriver();    
