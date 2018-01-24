@@ -12,11 +12,8 @@ import cucumber.annotation.en.*;
 import static org.junit.Assert.assertEquals;
 
 //import java.util.Arrays;
-<<<<<<< HEAD
 // AGREGUE UN COMENTARIO MAS
-=======
-// AGREGUE OTRO COMENTARIO
->>>>>>> 7a2c5cd65c8761d50301972370949f5bf254a6a9
+
 
 public class FundTransferStepDefs {
 	protected WebDriver driver;
