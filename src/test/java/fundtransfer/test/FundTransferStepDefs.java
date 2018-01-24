@@ -12,7 +12,7 @@ import cucumber.annotation.en.*;
 import static org.junit.Assert.assertEquals;
 
 //import java.util.Arrays;
-// AGREGUE UN COMENTARIO MAS
+// AGREGUE EL COMENTARIO
 
 
 public class FundTransferStepDefs {
